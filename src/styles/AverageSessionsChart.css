@@ -1,0 +1,28 @@
+.sessions-chart {
+  background-color: #E60000;
+  border-radius: 5px;
+  padding: 20px;
+  color: white;
+  flex:1;
+}
+
+.sessions-chart h2 {
+  margin: 0 0 20px 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+
+.tooltipAverage{
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.tooltipAverage p {
+  margin: 0;
+  color:black;
+  
+
+}

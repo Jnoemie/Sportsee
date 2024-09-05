@@ -1,0 +1,14 @@
+/* src/styles/UserName.css */
+.user-name {
+    margin: 20px 0;
+  }
+  
+  .user-name h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .user-name span {
+    color: red;
+  }
+  

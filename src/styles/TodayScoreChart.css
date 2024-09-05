@@ -1,0 +1,35 @@
+.score-chart {
+  background-color: #fbfbfb;
+  padding: 20px;
+  border-radius: 5px;
+  
+  position: relative;
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.score-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.score-text span {
+  font-size: 24px;
+  font-weight: bold;
+  color: balck;
+}
+
+.score-text p {
+  margin: 0;
+}
+.score-chart h2{
+  margin-left: -192px;
+  margin-bottom: 0;
+  margin-top:0;
+}

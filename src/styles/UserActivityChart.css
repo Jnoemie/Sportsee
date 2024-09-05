@@ -1,0 +1,19 @@
+.activity-chart {
+  background-color: #FBFBFB;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tooltip{
+  background: red;
+  border: 1px solid #E0E0E0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.tooltip p {
+  margin: 0;
+  font-size: 14px;
+  color: white;
+}
