@@ -5,7 +5,7 @@ import { UserPerformance } from '../../domain/models/type/user-performance';
 import { UserAverageSession } from "../../domain/models/type/user-average-session";
 
 export class InMemoryUser implements UserGateway {
-    getUserActivity({userId} : { userId: number}): Promise<UserActivity>{
+    getUserActivity(): Promise<UserActivity>{
       return Promise.resolve({
         userId: 12,
         sessions: [
@@ -22,7 +22,7 @@ export class InMemoryUser implements UserGateway {
         ],
       });
     }
-    getUser({ userId }: { userId: number }): Promise<User> {
+    getUser(): Promise<User> {
         return Promise.resolve({
             id: 12,
             userInfos: {
@@ -40,7 +40,7 @@ export class InMemoryUser implements UserGateway {
             },
           });
     }
-    getUserPerformance({ userId }: { userId: number }): Promise<UserPerformance> {
+    getUserPerformance(): Promise<UserPerformance> {
       return Promise.resolve({
         userId: 12,
         performanceData: [
@@ -54,7 +54,7 @@ export class InMemoryUser implements UserGateway {
         ],
     });
   }
- getUserAverageSession({ userId }: { userId: number }): Promise<UserAverageSession> {
+ getUserAverageSession(): Promise<UserAverageSession> {
     return Promise.resolve({
       userId: 12,
       sessions: [
